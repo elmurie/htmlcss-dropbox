@@ -41,10 +41,6 @@ body {
     clear: both;
 }
 
-li {
-    list-style: none;
-}
-
 h2 {
     font-size: 2.5em;
 }
@@ -168,19 +164,23 @@ header {
 
 .col {
     float: left;
-    width: 30%;
-    height: 60vh;
-
+    width: calc(100% / 3 - 20px);
+    border: 1px solid #d0d0d3;
+    height: 900px;
 }
+
+.col.center {
+    margin: 0 30px;
+}
+
 .col-top {
     text-align: center;
     padding: 10px;
-    border: 1px solid #d0d0d3;
+    border-bottom: 1px solid #d0d0d3;
 }
 
 .col-body {
     padding: 20px;
-    border: 1px solid #d0d0d3;
 }
 
 .plan-price {
@@ -193,17 +193,25 @@ header {
     padding-bottom: 20px;
 }
 
-.user-n,
-.storage {
-    padding: 10px 0;
+.plans-float,
+.col-top,
+.col-body,
+.col-body-top,
+.col-body-bottom,
+.col button {
+    width: 100%;
 }
 
-.services {
-    padding: 40px 0;
+.col-body-top ul {
+    
+    padding-bottom: 30px;
 }
 
 .col button {
+    font-size: 1em;
+    padding: 10px 0;
     margin-bottom: 30px;
+    
 }
 
 .buylink{
@@ -214,4 +222,25 @@ header {
     display: inline-block;
     height: 50px;
     border-bottom: 1px solid#b1b0b0;
+}
+
+.col-body-bottom {
+    padding-top: 40px;
+}
+
+.col h4 {
+    padding-bottom: 20px;
+}
+
+
+.col li {
+    padding: 10px 0;
+    text-align: left;
+}
+
+.fa-ul {
+    margin-left: 1.5em;
+}
+.fa-check {
+    color: #0061FF;
 }

@@ -41,8 +41,16 @@ body {
     clear: both;
 }
 
+li {
+    list-style: none;
+}
+
 h2 {
     font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.5em;
 }
 
 /* Header */
@@ -55,6 +63,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 10;
 }
 
 .nav,
@@ -149,17 +158,60 @@ header {
     padding-bottom: 5vh;
 }
 
+.radio {
+    padding-bottom: 2.5vh;
+}
+
 [for] {
     padding-right: 10px;
 }
 
 .col {
+    float: left;
+    width: 30%;
     height: 60vh;
+
 }
 .col-top {
+    text-align: center;
+    padding: 10px;
     border: 1px solid #d0d0d3;
 }
 
 .col-body {
+    padding: 20px;
     border: 1px solid #d0d0d3;
+}
+
+.plan-price {
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.plan-rate {
+    color: #7b7b7b;
+    padding-bottom: 20px;
+}
+
+.user-n,
+.storage {
+    padding: 10px 0;
+}
+
+.services {
+    padding: 40px 0;
+}
+
+.col button {
+    margin-bottom: 30px;
+}
+
+.buylink{
+    color: #0061FF;
+}
+
+.or {
+    display: inline-block;
+    height: 50px;
+    border-bottom: 1px solid#b1b0b0;
 }

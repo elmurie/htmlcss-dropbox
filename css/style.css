@@ -147,7 +147,7 @@ header {
 /*plans section*/
 
 .plans {
-    margin-top: 30vh;
+    margin: 30vh 0 20vh 0;
 }
 
 .plans-title {
@@ -164,13 +164,13 @@ header {
 
 .col {
     float: left;
-    width: calc(100% / 3 - 40px);
+    width: calc(100% / 3 - 24px);
     border: 1px solid #d0d0d3;
     height: 900px;
 }
 
 .col.center {
-    margin: 0 40px;
+    margin: 0 36px;
 }
 
 .col-top {
@@ -202,12 +202,13 @@ header {
 .row,
 .row-top,
 .row-body,
-.row button {
+.row button,
+.partner,
+.partner img {
     width: 100%;
 }
 
-.col-body-top ul {
-    
+.col-body-top ul { 
     padding-bottom: 30px;
 }
 
@@ -286,6 +287,33 @@ header {
     margin-bottom: 30px;
 }
 
-.row p {
-    font-size: .9em;;
+/*partner*/
+
+.partner {
+    margin-bottom: 20vh;
+}
+
+.partner-left {
+  
+}
+
+.partner-right {
+    padding: 40px;
+}
+.partner-left, .partner-right {
+    float: left;
+    width: 50%;
+}
+main p {
+    font-size: .9em;
+    line-height: 2;
+    padding: 10px 0;
+}
+
+.partner button {
+    font-size: .9em;
+    padding: 10px 20px;
+    background-color: #FFF;
+    color: #000;
+    border: 1px solid #000;
 }

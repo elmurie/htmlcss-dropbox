@@ -32,12 +32,17 @@ body {
 .small-container {
     width: 80%;
     max-width: 1200px;
+    margin: auto;
 }
 
 .clearfix::after {
     content: '';
     display: table;
     clear: both;
+}
+
+h2 {
+    font-size: 2.5em;
 }
 
 /* Header */
@@ -118,7 +123,7 @@ header {
 }
 
 .hero-left {
-    width: 40%;
+    width: 30%;
     padding-right: 60px;
 }
 .hero-right {
@@ -134,7 +139,27 @@ header {
     font-size: 3em;
 }
 
-/*debug section*/
-section {
-    height: 20vh;
+/*plans section*/
+
+.plans {
+    margin-top: 30vh;
+}
+
+.plans-title {
+    padding-bottom: 5vh;
+}
+
+[for] {
+    padding-right: 10px;
+}
+
+.col {
+    height: 60vh;
+}
+.col-top {
+    border: 1px solid #d0d0d3;
+}
+
+.col-body {
+    border: 1px solid #d0d0d3;
 }

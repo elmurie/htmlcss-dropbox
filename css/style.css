@@ -1,9 +1,67 @@
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Common */
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    border: none;
+    background-color: #0061FF;
+    padding: 5px 15px;
+}
+
+/* Header */
+
+header {
+    height: 10vh;
+    padding: 0 20px;
+}
+
+.nav,
+.nav li {
+    display: inline-block;
+    color: #FFF;
+    padding: 0 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo, .nav, .top-right {
+    line-height: 10vh;
+    display: inline-block;
+}
+
+.logo img,
+.nav,
+ header .btn {
+    vertical-align: middle;
+}
+
+.logo, .top-right{
+    width: 10%;
+}
+
+
+
+.nav-right, .top-right {
+    text-align: right;
+}
+
+.nav {
+    width: 41vw;
+}
+
+.top-right {
+    width: 4%;
 }

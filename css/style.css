@@ -18,11 +18,18 @@ body {
     padding: 5px 15px;
 }
 
+.container {
+    position: relative;
+}
+
 /* Header */
 
 header {
+    background-color: #FFF;;
     height: 10vh;
     padding: 0 20px;
+    position: fixed;
+    top: 0;
 }
 
 .nav,
@@ -48,20 +55,18 @@ header {
     vertical-align: middle;
 }
 
-.logo, .top-right{
-    width: 10%;
+.logo{
+    width: 6%;
+} 
+
+.top-right{
+    width: 4%;
 }
-
-
 
 .nav-right, .top-right {
     text-align: right;
 }
 
 .nav {
-    width: 41vw;
-}
-
-.top-right {
-    width: 4%;
+    width: 43vw;
 }

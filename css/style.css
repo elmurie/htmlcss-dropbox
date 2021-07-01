@@ -18,8 +18,26 @@ body {
     padding: 5px 15px;
 }
 
-.container {
-    position: relative;
+.btn-medium {
+    font-size: 1em;
+    padding: 10px 20px;
+}
+
+.big-container {
+    width: 80%;
+    max-width: 2000px;
+    margin: auto;
+}
+
+.small-container {
+    width: 80%;
+    max-width: 1200px;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 /* Header */
@@ -30,6 +48,8 @@ header {
     padding: 0 20px;
     position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
 }
 
 .nav,
@@ -69,4 +89,52 @@ header {
 
 .nav {
     width: 43vw;
+}
+
+/* Main*/
+
+.hero {
+    margin-top: 10vh;
+    padding-top: 50px;
+    background-color: #b4d0e7;
+
+}
+
+.hero-bottom {
+    position: relative;
+    bottom: -80px;
+}
+
+.hero h1 {
+    font-size: 5.3em;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero-left, .hero-right {
+    float: left;
+}
+
+.hero-left {
+    width: 40%;
+    padding-right: 60px;
+}
+.hero-right {
+    width: 60%;
+}
+
+.hero-left .btn-medium {
+    margin: 20px 0;
+}
+
+.fa-arrow-down {
+    margin: 40px 0;
+    font-size: 3em;
+}
+
+/*debug section*/
+section {
+    height: 20vh;
 }

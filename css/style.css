@@ -102,7 +102,6 @@ header {
     margin-top: 10vh;
     padding-top: 50px;
     background-color: #b4d0e7;
-
 }
 
 .hero-bottom {
@@ -329,4 +328,54 @@ main p {
 
 .middle {
     margin: 0 45px;
+}
+
+/*clients*/
+
+.clients {
+    margin: 35vh 0;
+}
+.clients h2 {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+/*Boxes*/
+
+.boxes {
+    background-color: red;
+    width: 100%;
+}
+
+.box {
+    background-color: lightblue;
+    width: 198px;
+    height: 198px;
+    border: 1px solid black;
+}
+
+.box-lx, .box-rx {
+    background-color: blue;
+    width: 25%;
+}
+.box-c {
+    background-color: lightgray;
+    width: 50%;
+}
+
+.box-lx ,
+.box-c ,
+.box-rx,
+.lx-lx,
+.lx-rx,
+.rx-lx,
+.rx-rx {
+    float: left;
+}
+
+.lx-lx,
+.lx-rx,
+.rx-lx,
+.rx-rx {
+    width: 50%;
 }

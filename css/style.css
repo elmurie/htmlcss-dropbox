@@ -335,6 +335,7 @@ main p {
 .clients {
     margin: 35vh 0;
 }
+
 .clients h2 {
     width: 50%;
     margin-bottom: 50px;
@@ -439,4 +440,38 @@ main p {
 }
 .cc {
     background-color: #FFD830;
+}
+
+/*Free trial*/
+
+.trial {
+    background-color: #B4D0E7;
+    padding: 130px 0px;
+
+}
+
+.trial h2 {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.trial a {
+    text-align: center;
+    width: 50%;
+    text-decoration: none;
+    background-color: #FFF;
+    color: #000;
+    padding: 10px 60px;
+}
+
+.trial-col-left {
+    width: 40%;
+    float: left;
+    color: #61082b;
+}
+
+.trial-col-right {
+    width: 60%;
+    float: left;
+    text-align: right;
 }

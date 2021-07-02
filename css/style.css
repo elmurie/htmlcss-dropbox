@@ -343,24 +343,41 @@ main p {
 /*Boxes*/
 
 .boxes {
-    background-color: red;
+    margin-top: 50px;
     width: 100%;
 }
 
 .box {
     background-color: lightblue;
-    width: 198px;
-    height: 198px;
-    border: 1px solid black;
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+
 }
 
 .box-lx, .box-rx {
     background-color: blue;
-    width: 25%;
+    width: 30vw;
 }
 .box-c {
-    background-color: lightgray;
-    width: 50%;
+    background-color: #F5F5F5;
+    width: calc(100% - 60vw);
+    height: 30vw;
+    padding: 50px;
+}
+
+.box-c img {
+    width:25%;
+}
+
+.line.or {
+    width: 10%;
+    display: block;
+    height: 30px;
+}
+
+.box-c p {
+    margin-top: 30px;
 }
 
 .box-lx ,
@@ -378,4 +395,48 @@ main p {
 .rx-lx,
 .rx-rx {
     width: 50%;
+}
+
+.box img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25%;
+}
+
+.designit {
+    background-color: #a2d39b;
+    border: 10px solid #D0E9CD;
+}
+
+.designit img {
+    padding: 20%;
+}
+
+.uf {
+    background-color: #0093CE;
+}
+
+.asu {
+    background-color: #61082B;
+}
+
+.topps {
+    background-color: #FF1C1C;
+}
+
+.wbr {
+    background-color: #D5001F;
+}
+
+.lp {
+    background-color: #0D2481;
+}
+.hearst {
+    background-color: #B4D0E7;
+}
+.cc {
+    background-color: #FFD830;
 }

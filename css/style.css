@@ -529,7 +529,36 @@ footer {
     margin-bottom: 10px;
 }
 
+.footer-top a {
+    text-decoration: none;
+    color: #FFF;
+}
 .footer-top li {
     list-style: none;
     padding: 10px 0;
+}
+
+.footer-bottom {
+    color: #b1b0b0;
+    padding-bottom: 100px;
+}
+
+.footer-bottom i {
+    vertical-align: middle;
+}
+
+
+.fa-globe-americas,
+.language,
+.fa-caret-up {
+    display: inline-block;
+    font-size: 1em;
+}
+
+footer .or {
+    display: block;
+    width:12%;
+    border: 1px 0 0 0;
+    height: 50px;
+    margin-bottom: 50px;
 }

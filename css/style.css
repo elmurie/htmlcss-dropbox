@@ -52,6 +52,7 @@ h3 {
 /* Header */
 
 header {
+    width: 100%;
     background-color: #FFF;;
     height: 10vh;
     padding: 0 20px;
@@ -62,43 +63,37 @@ header {
     z-index: 10;
 }
 
-.nav,
-.nav li {
+.top-nav,
+.top-nav li {
     display: inline-block;
     color: #FFF;
     padding: 0 20px;
 }
 
-.nav a {
+.top-nav a {
     text-decoration: none;
     color: #000;
 }
 
-.logo, .nav, .top-right {
+.top-nav{
     line-height: 10vh;
     display: inline-block;
 }
 
-.logo img,
-.nav,
+.head-lx img,
+.top-nav,
  header .btn {
     vertical-align: middle;
-}
-
-.logo{
-    width: 6%;
 } 
 
-.top-right{
-    width: 4%;
+.head-lx, 
+.head-rx {
+    float: left;
+    width: 50%;
 }
 
-.nav-right, .top-right {
+.head-rx {
     text-align: right;
-}
-
-.nav {
-    width: 43vw;
 }
 
 /* Main*/
@@ -112,7 +107,7 @@ header {
 
 .hero-bottom {
     position: relative;
-    bottom: -80px;
+    bottom: -90px;
 }
 
 .hero h1 {
@@ -167,6 +162,7 @@ header {
     width: calc(100% / 3 - 24px);
     border: 1px solid #d0d0d3;
     height: 900px;
+    min-height: 600px;
 }
 
 .col.center {
@@ -322,9 +318,6 @@ main p {
 
 /*Business*/
 
-.business {
-    
-}
 .tile {
     width: calc(100% / 3 - 30px);
     float: left;

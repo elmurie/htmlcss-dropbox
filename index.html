@@ -20,35 +20,31 @@
     <body>
 
         <!-- header -->
-        <header>
-            <!-- logo -->
-            <div class="logo">
+        <header class="clearfix">
+            <!-- left header -->
+            <div class="head-lx">
                 <img src="img/logo-small.png" alt="Logo">
+                <nav class="top-nav">
+                    <ul>
+                        <li><a href="#">Perché Dropbox?</a></li>
+                        <li><a href="#">Funzioni</a></li>
+                        <li><a href="#">Piani e prezzi</a></li>
+                    </ul>
+                </nav>
             </div>
-            <!-- /logo -->
+            <!-- /left header -->
 
-            <!-- nav -->
-            <nav class="nav nav-left">
-                <ul>
-                    <li><a href="#">Perché Dropbox?</a></li>
-                    <li><a href="#">Funzioni</a></li>
-                    <li><a href="#">Piani e prezzi</a></li>
-                </ul>
-            </nav>
-            <nav class="nav nav-right">
-                <ul>
-                    <li><a href="#">Supporto</a></li>
-                    <li><a href="#">Contatta l'ufficio vendite</a></li>
-                    <li><a href="#">Accedi</a></li>
-                </ul>
-            </nav>
-            <!-- /nav -->
-
-            <!-- button -->
-            <div class="top-right">
-                <button class="btn" id="start">Inizia</button>
-            </div>
-            <!-- button -->
+            <!-- right header -->
+            <div class="head-rx">
+                <nav class="top-nav">
+                    <ul>
+                        <li><a href="#">Supporto</a></li>
+                        <li><a href="#">Contatta l'ufficio vendite</a></li>
+                        <li><a href="#">Accedi</a></li>
+                    </ul>
+                </nav>
+                <a class="btn" id="start">Inizia</a>
+            <!-- /right header -->
         </header>
         <!-- /header -->
 
@@ -83,7 +79,7 @@
                             <h2>Trova il piano Dropbox Business che fa per te</h2>
                         </div>
                         <div class="radio">
-                            <input type="radio" name="payplan" id="monthly">
+                            <input type="radio" checked="checked" name="payplan" id="monthly">
                             <label for="monthly">Fatturazione mensile</label>
                             <input type="radio" name="payplan" id="yearly">
                             <label for="yearly">Fatturazione annuale</label>
@@ -212,8 +208,9 @@
             <!-- /pricing plans section -->
 
             <!-- partner section -->
-            <div class="small-container">
-                    <section class="partner clearfix">
+
+            <section class="partner clearfix">
+                <div class="small-container">
                         <div class="partner-left">
                             <img src="img/partner.png" alt="Partnership">
                         </div>
@@ -222,13 +219,13 @@
                             <p>Trova un partner Dropbox e Hellosign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui. </p>
                             <button class="btn">Trova un partner</button>
                         </div>
-                </section>
-            </div>
+                </div>
+            </section>
             <!-- /partner section -->
 
             <!-- business section -->
-            <div class="small-container">
-                <div class="business">
+            <section class="business">
+                <div class="small-container">
                     <div class="biz-title">
                         <h2>Esegui più operazioni con Dropbox Business</h2>
                     </div>
@@ -291,10 +288,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <!-- /business section -->
 
             <!-- clients -->
+
             <!-- /clients -->
 
             <!-- faq -->

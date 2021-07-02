@@ -510,4 +510,26 @@ main p {
     border: none;
 }
 
-/*/FAQ*/
+/*Footer*/
+
+footer {
+    background-color: #000;
+    color: #FFF;
+}
+
+.footer-top {
+    padding: 100px 0;
+}
+.footer-top > *{
+    float: left;
+    width: 20%;
+}
+
+.footer-top h3 {
+    margin-bottom: 10px;
+}
+
+.footer-top li {
+    list-style: none;
+    padding: 10px 0;
+}

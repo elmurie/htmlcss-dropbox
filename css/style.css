@@ -41,6 +41,18 @@ body {
     margin: auto;
 }
 
+.width-100 {
+    width: 100%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.float {
+    float: left;
+}
+
 .clearfix::after {
     content: '';
     display: table;
@@ -89,13 +101,6 @@ main p {
     padding: 10px 0;
 }
 
-.width-100 {
-    width: 100%;
-}
-
-.width-50 {
-    width: 50%;
-}
 
 /* Header */
 
@@ -137,16 +142,11 @@ header {
     vertical-align: middle;
 } 
 
-.head-lx, 
-.head-rx {
-    float: left;
-}
-
 .head-rx {
     text-align: right;
 }
 
-/* Main*/
+/* Hero*/
 
 .hero {
     margin-top: 6vh;
@@ -157,10 +157,6 @@ header {
 .hero-bottom {
     position: relative;
     bottom: -90px;
-}
-
-.hero-left, .hero-right {
-    float: left;
 }
 
 .hero-left {
@@ -199,7 +195,6 @@ header {
 }
 
 .col {
-    float: left;
     width: calc(100% / 3 - 24px);
     border: 1px solid #d0d0d3;
     height: 900px;
@@ -245,8 +240,6 @@ header {
     color: #0061FF;
 }
 
-
-
 .col-body-bottom {
     padding-top: 40px;
 }
@@ -279,10 +272,6 @@ header {
     padding: 30px;
 }
 
-.row-col-left, .row-col-right {
-    float: left;
-}
-
 .row-col-left {
     width:  65%;
 }
@@ -300,9 +289,6 @@ header {
 .partner-right {
     padding: 40px;
 }
-.partner-left, .partner-right {
-    float: left;
-}
 
 .partner button {
     font-size: .9em;
@@ -316,7 +302,6 @@ header {
 
 .tile {
     width: calc(100% / 3 - 30px);
-    float: left;
 }
 
 .biz-top, .biz-bottom {
@@ -374,16 +359,6 @@ header {
 
 .box-c p {
     margin-top: 30px;
-}
-
-.box-lx ,
-.box-c ,
-.box-rx,
-.lx-lx,
-.lx-rx,
-.rx-lx,
-.rx-rx {
-    float: left;
 }
 
 .box img {
@@ -455,13 +430,11 @@ header {
 
 .trial-col-left {
     width: 40%;
-    float: left;
     color: #61082b;
 }
 
 .trial-col-right {
     width: 60%;
-    float: left;
     text-align: right;
 }
 
@@ -501,7 +474,6 @@ footer {
     padding: 100px 0;
 }
 .footer-top > *{
-    float: left;
     width: 20%;
 }
 

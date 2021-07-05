@@ -457,11 +457,39 @@ header {
     list-style: none;
 }
 
-.faq select {
-    font-weight: 700;
-    font-size: 1em;
-    border: none;
+.question-title {
+    width: 90%;
 }
+
+.fa-chevron-down,
+.fa-chevron-up{
+    width: 9%;
+    text-align: right;
+}
+.question-title,
+.fa-chevron-down {
+    display: inline-block;
+}
+
+.fa-chevron-up,
+.question-bottom {
+    display: none;
+} 
+
+.questions li:hover {
+    padding-bottom: 35px;
+}
+.questions li:hover .fa-chevron-down{
+    display: none;
+}
+.questions li:hover .fa-chevron-up{
+    display: inline-block;
+}
+
+.questions li:hover .question-bottom {
+    display: inline-block;
+}
+
 
 /*Footer*/
 
@@ -494,7 +522,6 @@ footer {
 .footer-bottom i {
     vertical-align: middle;
 }
-
 
 .fa-globe-americas,
 .language,

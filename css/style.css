@@ -106,7 +106,7 @@ main p {
 
 header {
     background-color: #FFF;;
-    height: 6vh;
+    height: 50px;
     padding: 0 20px;
     position: fixed;
     top: 0;
@@ -132,7 +132,7 @@ header {
 }
 
 .top-nav{
-    line-height: 6vh;
+    line-height: 50px;
     display: inline-block;
 }
 
@@ -149,7 +149,7 @@ header {
 /* Hero*/
 
 .hero {
-    margin-top: 6vh;
+    margin-top: 50px;
     padding-top: 50px;
     background-color: #b4d0e7;
 }
